@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+body .selections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .selections .selection {
+  position: relative;
+  height: 50vh;
+  width: 33.33%;
+}
+
+body .selections .selection:first-child {
+  background-color: skyblue;
+}
+
+body .selections .selection:nth-child(2) {
+  background-color: yellow;
+}
+
+body .selections .selection:last-child {
+  background-color: tomato;
+}
+
+body .selections .selection .container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .selections .selection .container img {
+  height: 250px;
+  width: 250px;
+}
+
+body .selections .selection .container img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+body .result {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .result .player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .result .player p {
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+body .result .player .result-score {
+  color: rgba(255, 255, 255, 0.481);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
