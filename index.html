@@ -11,27 +11,28 @@
 </head>
 
 <body>
-
+    <!--The Selections-->
     <div class="selections">
         <div class="selection">
-            <div class="container"><img src="./Images/rock.png" alt="Rock"></div>
+            <div class="container"><img src="./Images/rock.png" alt="Rock" data-selection="Rock"></div>
         </div>
         <div class="selection">
-            <div class="container"><img src="./Images/paper.png" alt="Rock"></div>
+            <div class="container"><img src="./Images/paper.png" alt="Paper" data-selection="Paper"></div>
         </div>
         <div class="selection">
-            <div class="container"><img src="./Images/scissors.png" alt="Rock"></div>
+            <div class="container"><img src="./Images/scissors.png" alt="Scissors" data-selection="Scissors"></div>
         </div>
     </div>
+    <!--The Result-->
     <div class="result">
         <div class="player">
             <p> YOU: </p>
-            <span class="result-score">0</span>
+            <span class="result-score-p" data-you-score>0</span>
 
         </div>
         <div class="player">
             <p> COMPUTER: </p>
-            <span class="result-score">0</span>
+            <span class="result-score-c" data-computer-score>0</span>
         </div>
     </div>
 </body>

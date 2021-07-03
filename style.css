@@ -95,7 +95,15 @@ body .result .player p {
   font-weight: 800;
 }
 
-body .result .player .result-score {
+body .result .player .result-score-p {
+  color: rgba(255, 255, 255, 0.481);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 20px;
+}
+
+body .result .player .result-score-c {
   color: rgba(255, 255, 255, 0.481);
   font-size: 40px;
   font-weight: 800;
